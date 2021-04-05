@@ -1,5 +1,7 @@
 body{
+    font-family: Verdana, sans-serif;
     background-color: black;
+    color: white;
     margin: 0;
 }
 
@@ -8,16 +10,44 @@ a{
     color: aquamarine;
     display: flex;
     justify-content: center;
-    border: 2px red solid;
+    padding-bottom: 20px;
    
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
-    color: white;
     display: flex;
     justify-content: center;
-    border: 2px red solid;
+}
+
+h2{ 
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+
+p{
+    color: gray;
+    font-size: 21px;
+}
+
+
+footer{
+    color: gray;
+    text-align: right;
+    font-size: 21px;
+}
+.travel {
+    text-align: center;
+}
+
+.phone-video{
+    display: flex;
+    justify-content: center;
+}
+
+.phone-icon{
+    text-align: center;
+    padding-top: 20px;
 }
