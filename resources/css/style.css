@@ -8,6 +8,7 @@ a{
     color: aquamarine;
     display: flex;
     justify-content: center;
+    border: 2px red solid;
    
 }
 
@@ -18,4 +19,5 @@ h1{
     color: white;
     display: flex;
     justify-content: center;
+    border: 2px red solid;
 }
